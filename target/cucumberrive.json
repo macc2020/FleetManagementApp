@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-03T16:45:21.153Z",
+        "line": 4,
+        "name": "Login as driver and navigate to the Vehicles",
+        "description": "",
+        "id": "vehicles;login-as-driver-and-navigate-to-the-vehicles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6418000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3013000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.DriverStepDefinitions.user_logs_in_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7384000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to Fleet and Vehicles",
+            "match": {
+              "location": "com.fleetApp.step_definitions.DriverStepDefinitions.userNavigatesToFleetAndVehicles()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4038000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies that \"Cars\" page name is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.DriverStepDefinitions.user_verifies_that_page_name_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies that default page number is \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.DriverStepDefinitions.userVerifiesThatDefaultPageNumberIs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Vehicles",
+    "description": "  As user I want to see list of all vehicles",
+    "id": "vehicles",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/drive.feature",
+    "tags": []
+  }
+]

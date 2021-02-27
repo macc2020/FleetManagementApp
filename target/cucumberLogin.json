@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7292000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-03T00:02:20.615Z",
+        "line": 14,
+        "name": "Parametrized login as sales manager",
+        "description": "",
+        "id": "i-want-to-be-able-to-login-as-user-under-different-roles;parametrized-login-as-\u003crole\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9830000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login as a \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7710000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_should_see_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4977000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-03T00:02:45.617Z",
+        "line": 15,
+        "name": "Parametrized login as store manager",
+        "description": "",
+        "id": "i-want-to-be-able-to-login-as-user-under-different-roles;parametrized-login-as-\u003crole\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10574000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7613000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_should_see_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "common steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4758000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-03T00:03:08.791Z",
+        "line": 16,
+        "name": "Parametrized login as driver",
+        "description": "",
+        "id": "i-want-to-be-able-to-login-as-user-under-different-roles;parametrized-login-as-\u003crole\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9186000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_login_as_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7481000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see \"Quick Launchpad\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Quick Launchpad\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fleetApp.step_definitions.LoginStepDefinitions.user_should_see_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to be able to login as user under different roles",
+    "description": "",
+    "id": "i-want-to-be-able-to-login-as-user-under-different-roles",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

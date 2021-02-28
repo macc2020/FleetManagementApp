@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-03T16:45:21.153Z",
+        "start_timestamp": "2021-02-28T02:10:40.975Z",
         "line": 4,
         "name": "Login as driver and navigate to the Vehicles",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6418000000,
+              "duration": 9472000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3013000000,
+              "duration": 4089000000,
               "status": "passed"
             },
             "line": 6,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 7384000000,
+              "duration": 7416000000,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 4038000000,
+              "duration": 4047000000,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "line": 9,

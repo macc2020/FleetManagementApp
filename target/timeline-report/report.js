@@ -1,14 +1,14 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "253dc96d-6a49-4538-969b-506773518384",
+    "id": "57eb5a93-0f29-4e72-9708-1faeff24fdb0",
     "feature": "Vehicles",
     "scenario": "Login as driver and navigate to the Vehicles",
-    "start": 1612370721153,
+    "start": 1614478240975,
     "group": 1,
     "content": "",
     "tags": "",
-    "end": 1612370742246,
+    "end": 1614478266230,
     "className": "passed"
   }
 ]);
